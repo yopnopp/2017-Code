@@ -1,0 +1,40 @@
+{
+  "name": "Queue",
+  "numberOfColumns": 1,
+  "columns": [
+    {
+      "name": "Queue",
+      "cards": [
+        {
+          "name": "Kangaroo",
+          "details": "",
+          "color": "FFFFFF"
+        },
+        {
+          "name": "Dragon",
+          "details": "",
+          "color": "A2FCA3"
+        },
+        {
+          "name": "Fossa",
+          "details": "To be determined",
+          "color": "FCC19D"
+        }
+      ],
+      "settings": {
+        "limit": 5
+      }
+    }
+  ],
+  "archived": [
+    {
+      "card": {
+        "name": "Wolverine",
+        "details": "Completed 08/25/2017",
+        "color": "989FFA"
+      },
+      "archivedOn": "2017-08-26T03:05:28.115Z"
+    }
+  ],
+  "settings": {}
+}
