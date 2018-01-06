@@ -1,0 +1,7 @@
+// Write your if/elseif/else statement here!
+        if(7 < 6) {
+            echo "This condition is true";
+        }
+        else {
+            echo "The condition is false";
+            }
