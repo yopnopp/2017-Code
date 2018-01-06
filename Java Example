@@ -1,0 +1,77 @@
+public class Generalizations {
+	public static void main(String[] args) {
+
+
+		boolean isComplete = true;
+		int awesomeLevel = 121;
+		int epicLevel = awesomeLevel * 2;		
+		System.out.println(epicLevel);
+    //Congrats, you did it!
+    
+    System.out.println(5 < 6 && true); //Prints true
+    
+    	System.out.println(4 < 6 || false);
+    	
+    	
+		System.out.println( !(6 <= 1) );
+		System.out.println( !(5 >= 1) );
+		
+		boolean riddle = !( 1 < 8 && (5 > 2 || 3 < 5));
+		System.out.println(riddle);
+		
+		if (5 < 2) {
+
+			System.out.println("Access granted.");
+    }
+      else {
+        System.out.println("Access DENIED!");
+		}
+		
+			if (7 > 7) {
+
+			System.out.println("Try again...");
+
+		} else {
+
+			System.out.println("Success!");
+			
+				int round;
+
+		if (5 > 12) {
+
+			System.out.println("The match is over!");
+
+		} else if (5 > 0) {
+
+			System.out.println("The match is underway!");
+
+		}	else {
+
+			System.out.println("The boxing match hasn't started yet.");
+
+		}	
+		
+				
+		int fuelLevel = 3;
+
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
+		
+				char penaltyKick = 'L';
+
+		switch (penaltyKick) {
+
+			case 'L': System.out.println("Messi shoots to the left and scores!");
+								break; 
+			case 'R': System.out.println("Messi shoots to the right and misses the goal!");
+								break;
+			case 'C': System.out.println("Messi shoots down the center, but the keeper blocks it!");
+								break;
+			default:
+				System.out.println("Messi is in position...");
+
+		}
+
+	}
+
+}
